@@ -1,0 +1,8 @@
+data:
+  connectorSubtype: api
+  connectorType: source
+  name: source-s3-postgres-loader
+  definitionId: 4086e96f-8a9f-42d8-b1d7-57087b174797
+  dockerRepository: mkpoon806/source-s3-postgres-loader
+  dockerImageTag: dev
+  githubRepository: mkpoon-pd/airbyte  # or your actual fork

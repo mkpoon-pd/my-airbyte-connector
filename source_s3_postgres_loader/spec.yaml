@@ -1,0 +1,39 @@
+# spec.yaml
+
+documentationUrl: https://example.com
+connectionSpecification:
+  type: object
+  required:
+    - s3_bucket
+    - postgres_host
+    - postgres_user
+    - postgres_password
+    - postgres_db
+    - region_name
+    - s3_prefix   # now required
+    - aws_access_key_id
+    - aws_secret_access_key
+  properties:
+    s3_bucket:
+      type: string
+      description: "S3 bucket name"
+    postgres_host:
+      type: string
+    postgres_user:
+      type: string
+    postgres_password:
+      type: string
+    postgres_db:
+      type: string
+    region_name:
+      type: string
+      description: "AWS Region for the S3 bucket (e.g., us-east-1)"
+    s3_prefix:
+      type: string
+      description: "Prefix (folder path) within the S3 bucket to look for files"
+    aws_access_key_id:
+      type: string
+    aws_secret_access_key:
+      type: string
+
+      

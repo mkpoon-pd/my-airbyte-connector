@@ -1,0 +1,2 @@
+include source_s3_postgres_loader/spec.yaml
+recursive-include schemas *.json

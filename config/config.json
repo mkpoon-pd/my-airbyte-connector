@@ -1,0 +1,11 @@
+{
+  "s3_bucket": "lestar-sit-data",
+  "s3_prefix": "airbyte_data/raw/",
+  "postgres_host": "host.docker.internal",
+  "postgres_user": "postgres",
+  "postgres_password": "B2b@0912",
+  "postgres_db": "postgres",
+  "aws_access_key_id": "",
+  "aws_secret_access_key": "",
+  "region_name": "ap-southeast-1"
+}
